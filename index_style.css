@@ -1,2 +1,6 @@
 html{
-    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;}
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+p#a{
+    font-size: 30px;
+}
