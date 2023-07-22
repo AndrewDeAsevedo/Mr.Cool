@@ -55,4 +55,20 @@ document.getElementById("count").onclick = function(){
     if (count >= 170){
         document.getElementById("a").innerHTML ="please don't tell him";
     }
+    if (count >= 180){
+        document.getElementById("a").innerHTML ="I just don't want to dissapoint him after he helped me from....";
+    }
+    if (count >= 190){
+        document.getElementById("a").innerHTML ="The Incident";
+    }
+    if (count >= 200){
+        document.getElementById("a").innerHTML ="anyways you're really starting to piss me off now";
+    }
+    if (count >= 210){
+        document.getElementById("a").innerHTML ="like what do you have to gain?";
+    }
+    if (count >= 220){
+        document.getElementById("a").innerHTML ="Ok well now im mad, look at my mad face";
+        document.getElementById("mascot").src = "angry.png";
+    }
 }
