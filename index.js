@@ -59,7 +59,7 @@ document.getElementById("count").onclick = function(){
         document.getElementById("a").innerHTML ="I just don't want to dissapoint him after he helped me from....";
     }
     if (count >= 190){
-        document.getElementById("a").innerHTML ="The Incident";
+        document.getElementById("a").innerHTML ="The Incident™";
     }
     if (count >= 200){
         document.getElementById("a").innerHTML ="anyways you're really starting to piss me off now";
