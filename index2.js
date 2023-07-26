@@ -1,4 +1,4 @@
-let count = 190;
+let count = 0;
 document.getElementById("ad").style.display = "none";
 
 document.getElementById("count").onclick = function(){
@@ -64,7 +64,7 @@ document.getElementById("count").onclick = function(){
             document.getElementById("a").innerHTML ="Ok well now im mad, look at my mad face";
             document.getElementById("mascot").src = "angry.png";
         case count == 200:
-            document.getElementById("a").innerHTML ="Well since you're here I may as well monetize this page";
+            document.getElementById("a").innerHTML ="Well since you're here I may as well monetize this page. Please unmute as we enjoy a message from our sponser.";
             document.getElementById("ad").style.display = "inline";
 
             break;
