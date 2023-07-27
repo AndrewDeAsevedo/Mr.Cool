@@ -1,4 +1,4 @@
-let count = 199;
+let count = 0;
 document.getElementById("ad").style.display = "none";
 
 document.getElementById("count").onclick = function(){
