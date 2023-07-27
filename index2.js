@@ -1,4 +1,4 @@
-let count = 0;
+let count = 199;
 document.getElementById("ad").style.display = "none";
 
 document.getElementById("count").onclick = function(){
@@ -47,27 +47,29 @@ document.getElementById("count").onclick = function(){
             break;
         case count == 140:
             document.getElementById("a").innerHTML ="please don't tell him";
-            break;
+            break;;
         case count == 150:
-            document.getElementById("a").innerHTML ="I just don't want to dissapoint him after he helped me from....";
-            break;
-        case count == 160:
-            document.getElementById("a").innerHTML ="The Incident";
-            break;
-        case count == 170:
             document.getElementById("a").innerHTML ="anyways you're really starting to piss me off now";
             break;
-        case count == 180:
+        case count == 160:
             document.getElementById("a").innerHTML ="like what do you have to gain?";
             break;
-        case count == 190:
+        case count == 170:
             document.getElementById("a").innerHTML ="Ok well now im mad, look at my mad face";
             document.getElementById("mascot").src = "angry.png";
-        case count == 200:
+        case count == 180:
             document.getElementById("a").innerHTML ="Well since you're here I may as well monetize this page. Please unmute as we enjoy a message from our sponser.";
             document.getElementById("ad").style.display = "inline";
-
             break;
+        case count == 190:
+            document.getElementById("ad").style.display = "none";
+            document.getElementById("a").innerHTML = "Thanks for the 8 bucks dummy";
+            document.getElementById("mascot").src = "money.png";
+            break;
+        case count == 200:
+            document.getElementById("a").innerHTML = "Ok fine. if I entertain you, will you leave me alone?";
+            break;
+    
 
     }
 }
